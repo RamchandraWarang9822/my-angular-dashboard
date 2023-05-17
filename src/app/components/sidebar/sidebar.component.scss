@@ -1,0 +1,72 @@
+
+.sidebar {
+  .searchContainer {
+    display: flex;
+    align-items: center;
+
+    #student-search {
+      border: 3px solid black;
+      border-radius: 10px;
+      padding: 10px 20px;
+    }
+
+    .searchButton  {
+      border: 3px solid black;
+      border-radius: 10px;
+      height: 43px;
+      width: 43px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      background: #4c6ef5;
+
+      .searchIcon{
+        height: 32px;
+        width: 32px;
+      }
+    }
+  }
+
+  .studentInfo {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+
+    p{
+      margin: 2px;
+      font-weight: bold;
+    }
+
+    .studentDetails{
+      margin-top: 20px;
+      margin-left: 10px;
+
+
+
+    }
+
+    .RecentlyIssuedBooks, .BooksDue {
+      flex-grow: 1;
+      margin: 8px;
+      padding: 5px;
+
+      .title {
+        border-bottom: 3px solid black;
+      }
+
+    }
+
+    .RecentlyIssuedBooks{
+      border: 3px solid black;
+
+
+    }
+
+    .BooksDue{
+      border: 3px solid black;
+
+    }
+
+  }
+}

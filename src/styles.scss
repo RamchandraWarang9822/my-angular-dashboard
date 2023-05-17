@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+$dark-gray: #ced4da;
+$blue: #4c6ef5;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
+
+*{
+  font-family: 'Space Mono', monospace;
+}

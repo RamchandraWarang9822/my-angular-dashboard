@@ -1,0 +1,55 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ced4da;
+  height: 70px;
+  padding: 0 15px;
+  border-bottom: 3px solid black;
+
+  .title {
+
+  }
+
+  .header-button{
+    font-weight: bolder;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 45px;
+    padding: 10px 20px;
+    margin-right: 15px ;
+    background: #4c6ef5;
+    color: white;
+  }
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+
+    #book-search {
+      border: 3px solid black;
+      border-radius: 10px;
+      padding: 10px 20px;
+      width: 40vw;
+    }
+
+    .searchButton  {
+      border: 3px solid black;
+      border-radius: 10px;
+      height: 43px;
+      width: 43px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+
+      .searchIcon {
+        height: 35px;
+        width: 35px;
+      }
+    }
+  }
+
+
+}
